@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+.npm-cache/
+
+# Production build
+dist/
+
+# Local storage and database
+storage/
+*.db
+*.db-journal
+*.db-wal
+
+# Logs
+*.log
+*.err
+dev-server.log
+dev-server.err
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
